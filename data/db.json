@@ -1,0 +1,460 @@
+{
+  "categories": [
+    {
+      "id": "food-grocery",
+      "name": "Food & Grocery",
+      "slug": "food-grocery",
+      "enabled": true,
+      "subcategories": [
+        "Makhana",
+        "Dry Fruits",
+        "Fruit Powders",
+        "Dehydrated Fruits",
+        "Spices",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "slug": "clothing",
+      "enabled": true,
+      "subcategories": [
+        "Men's Clothing",
+        "Women's Clothing",
+        "Kids Clothing"
+      ]
+    },
+    {
+      "id": "footwear",
+      "name": "Footwear",
+      "slug": "footwear",
+      "enabled": true,
+      "subcategories": [
+        "Men's Shoes",
+        "Women's Shoes",
+        "Sneakers"
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "enabled": true,
+      "subcategories": [
+        "Mobile Accessories",
+        "Earphones",
+        "Home Appliances"
+      ]
+    },
+    {
+      "id": "home-kitchen",
+      "name": "Home & Kitchen",
+      "slug": "home-kitchen",
+      "enabled": true,
+      "subcategories": [
+        "Cookware",
+        "Storage Products",
+        "Home Decor"
+      ]
+    },
+    {
+      "id": "beauty",
+      "name": "Beauty & Personal Care",
+      "slug": "beauty",
+      "enabled": true,
+      "subcategories": [
+        "Skincare",
+        "Haircare",
+        "Grooming"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "banana-powder",
+      "name": "Banana Powder",
+      "sku": "BM-FP-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Fruit Powders",
+      "shortDescription": "Fine fruit powder for everyday recipes.",
+      "price": 249,
+      "mrp": 299,
+      "stock": 100,
+      "status": "published",
+      "tags": [
+        "fruit",
+        "powder"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🍌",
+      "accent": "#f4c15d",
+      "createdAt": "2026-08-08T00:00:00.000Z",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=900&q=85",
+      "powderImage": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "mango-slices",
+      "name": "Mango Slices",
+      "sku": "BM-DF-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Dehydrated Fruits",
+      "shortDescription": "Crisp dehydrated mango slices.",
+      "price": 299,
+      "mrp": 349,
+      "stock": 72,
+      "status": "published",
+      "tags": [
+        "mango",
+        "slices"
+      ],
+      "variants": [
+        {
+          "name": "Pack Size",
+          "value": "100g",
+          "sku": "BM-DF-001-100",
+          "price": 299,
+          "stock": 72
+        }
+      ],
+      "attributes": {
+        "Ingredients": "100% Mango",
+        "Storage": "Store in a cool, dry place"
+      },
+      "emoji": "🥭",
+      "accent": "#f5a000",
+      "createdAt": "2026-08-08T00:00:00.000Z",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "roasted-makhana",
+      "name": "Roasted Makhana",
+      "sku": "BM-MK-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Makhana",
+      "shortDescription": "Lightly roasted makhana for a satisfying snack.",
+      "price": 269,
+      "mrp": 299,
+      "stock": 45,
+      "status": "published",
+      "tags": [
+        "makhana",
+        "snack"
+      ],
+      "variants": [
+        {
+          "name": "Weight",
+          "value": "100g",
+          "sku": "BM-MK-001-100",
+          "price": 269,
+          "stock": 20
+        },
+        {
+          "name": "Weight",
+          "value": "250g",
+          "sku": "BM-MK-001-250",
+          "price": 549,
+          "stock": 25
+        }
+      ],
+      "attributes": {
+        "Ingredients": "Foxnuts",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🌰",
+      "accent": "#d7a969",
+      "createdAt": "2026-08-08T00:00:00.000Z",
+      "image": "https://images.unsplash.com/photo-1599599810769-56d8b38b4da8?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "mango-powder",
+      "name": "Mango Powder",
+      "sku": "BM-FP-002",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Fruit Powders",
+      "shortDescription": "Fine mango powder for smoothies and recipes.",
+      "price": 249,
+      "mrp": 286,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "fruit powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🥭",
+      "accent": "#f5a000",
+      "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.806Z",
+      "powderImage": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "pineapple-powder",
+      "name": "Pineapple Powder",
+      "sku": "BM-FP-003",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Fruit Powders",
+      "shortDescription": "Bright pineapple powder for everyday recipes.",
+      "price": 269,
+      "mrp": 309,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "fruit powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🍍",
+      "accent": "#eabf47",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z",
+      "powderImage": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "pineapple-slices",
+      "name": "Pineapple Slices",
+      "sku": "BM-DF-002",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Dehydrated Fruits",
+      "shortDescription": "Naturally sweet dehydrated pineapple slices.",
+      "price": 329,
+      "mrp": 378,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "dehydrated fruits",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🍍",
+      "accent": "#eabf47",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z"
+    },
+    {
+      "id": "beetroot-powder",
+      "name": "Beetroot Powder",
+      "sku": "BM-VP-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Vegetable Powders",
+      "shortDescription": "Vibrant beetroot powder for everyday wellness routines.",
+      "price": 279,
+      "mrp": 321,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "vegetable powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🫜",
+      "accent": "#c66b6b",
+      "image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z",
+      "powderImage": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "moringa-powder",
+      "name": "Moringa Powder",
+      "sku": "BM-VP-002",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Vegetable Powders",
+      "shortDescription": "Fine moringa powder for a balanced everyday lifestyle.",
+      "price": 279,
+      "mrp": 321,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "vegetable powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🌿",
+      "accent": "#789e63",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z",
+      "powderImage": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "spinach-powder",
+      "name": "Spinach Powder",
+      "sku": "BM-VP-003",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Vegetable Powders",
+      "shortDescription": "Green spinach powder for simple daily recipes.",
+      "price": 269,
+      "mrp": 309,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "vegetable powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🥬",
+      "accent": "#6c9c6c",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z",
+      "powderImage": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "ginger-powder",
+      "name": "Ginger Powder",
+      "sku": "BM-SP-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Spices",
+      "shortDescription": "Warm ginger powder for cooking and drinks.",
+      "price": 239,
+      "mrp": 275,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "spices",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🫚",
+      "accent": "#d4a064",
+      "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z"
+    },
+    {
+      "id": "lemon-powder",
+      "name": "Lemon Powder",
+      "sku": "BM-FP-004",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Fruit Powders",
+      "shortDescription": "Zesty lemon powder for drinks and recipes.",
+      "price": 239,
+      "mrp": 275,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "fruit powders",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🍋",
+      "accent": "#e8c84a",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z",
+      "powderImage": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": "okra-chips",
+      "name": "Okra Chips",
+      "sku": "BM-DV-001",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Dehydrated Vegetables",
+      "shortDescription": "Crisp dehydrated okra chips with natural texture.",
+      "price": 289,
+      "mrp": 332,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "dehydrated vegetables",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "🥒",
+      "accent": "#7ea66c",
+      "image": "https://images.unsplash.com/photo-1567375698348-5d9d5ae99de0?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z"
+    },
+    {
+      "id": "chocolate-makhana",
+      "name": "Chocolate Makhana",
+      "sku": "BM-MK-002",
+      "brand": "BUYMITRA",
+      "category": "food-grocery",
+      "subcategory": "Makhana",
+      "shortDescription": "Roasted makhana with a light chocolate flavour.",
+      "price": 299,
+      "mrp": 344,
+      "stock": 50,
+      "status": "published",
+      "tags": [
+        "makhana",
+        "buy mitra"
+      ],
+      "variants": [],
+      "attributes": {
+        "Net Weight": "100g",
+        "Shelf Life": "6 Months"
+      },
+      "emoji": "⚫",
+      "accent": "#a88068",
+      "image": "https://images.unsplash.com/photo-1548907040-4d42fcaa3e9a?auto=format&fit=crop&w=900&q=85",
+      "createdAt": "2026-08-08T12:30:30.807Z"
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "id": "owner",
+      "identifier": "owner@buymitra.local",
+      "passwordHash": "e5bf4ea9d3ca8e7b01358689ef7fa132071ecb0adc8fddf8d4b268c868354707",
+      "role": "owner",
+      "createdAt": "2026-08-08T12:20:47.960Z"
+    },
+    {
+      "id": "863dad2f-b3f6-4b49-9803-ef7ea6553b87",
+      "identifier": "buymitra7@gmail.com",
+      "passwordHash": "c2b5ed613b4663a5e5591ee7d65c9ac6d753c322d6d4624c7019fcd1ef28c4dc",
+      "role": "customer",
+      "createdAt": "2026-08-08T12:25:27.941Z"
+    }
+  ]
+}

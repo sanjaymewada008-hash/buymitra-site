@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: buymitra-store
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BUYMITRA_OWNER_USERNAME
+        sync: false
+      - key: BUYMITRA_OWNER_PASSWORD
+        sync: false

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BUYMITRA — premium fruit powders, dehydrated slices and roasted makhana. Shop smart, live better." />
+  <title>BUYMITRA | Shop Smart, Live Better</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Freshly crafted pantry essentials · Delivered across India</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="BUYMITRA home"><img class="brand-logo" src="buymitra-header-logo.svg" alt="BUYMITRA — Shop Smart, Live Better" /></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#range">Our range</a><a href="#story">Our story</a><a href="#buy">Where to buy</a><a href="login.html">Login</a><a href="admin.html">Admin</a>
+      <button class="cart-button" id="cartButton" aria-label="Open shopping bag">Bag <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">NATURALLY GOOD · BEAUTIFULLY SIMPLE</p>
+        <h1>Make every<br /><em>choice</em> count.</h1>
+        <p class="hero-text">Thoughtfully crafted fruit powders, crisp dehydrated slices and roasted makhana for the way India eats today.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#range">Explore the range <span>↗</span></a><a class="text-link" href="#story">Why BUYMITRA? <span>→</span></a></div>
+        <div class="hero-proof"><span>✦</span><div><strong>Quality you can see.</strong><small>Made for everyday rituals.</small></div></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-bowl"><div class="powder powder-orange"></div><div class="powder powder-green"></div><div class="powder powder-pink"></div><div class="bowl-rim"></div></div>
+        <div class="floating-chip chip-mango">MANGO<br /><small>SLICE</small></div><div class="floating-chip chip-makhana">ROASTED<br /><small>MAKHANA</small></div>
+        <div class="hero-leaf leaf-one">✦</div><div class="hero-leaf leaf-two">✦</div>
+      </div>
+    </section>
+
+    <section class="marquee"><div>FRUIT POWDERS <span>✦</span> DEHYDRATED SLICES <span>✦</span> ROASTED MAKHANA <span>✦</span> EVERYDAY WELLNESS <span>✦</span></div></section>
+
+    <section class="section-shell range-section" id="range">
+      <div class="section-heading reveal"><div><p class="eyebrow">THE BUYMITRA PANTRY</p><h2>Goodness, <em>in every form.</em></h2></div><p>From bright fruit powders to snackable crunch, discover simple ingredients with a premium point of view.</p></div>
+      <div class="toolbar"><div class="filter-tabs" role="group" aria-label="Filter products"><button class="active" data-filter="all">All</button><button data-filter="powders">Powders</button><button data-filter="slices">Slices</button><button data-filter="makhana">Makhana</button></div><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Search the pantry" /></label></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="story-section" id="story"><div class="section-shell story-grid"><div class="story-visual reveal"><div class="story-card card-top">FRESH<br /><span>TO CRISP</span></div><div class="story-card card-bottom">POWDER<br /><span>TO PLATE</span></div><div class="story-circle">✦</div></div><div class="story-copy reveal"><p class="eyebrow">THE BUYMITRA WAY</p><h2>From nature,<br /><em>with intention.</em></h2><p>We celebrate the ingredients you already love — carefully transformed into convenient pantry staples that fit beautifully into real, busy lives.</p><div class="values"><div><strong>01</strong><span>Carefully sourced</span></div><div><strong>02</strong><span>Thoughtfully crafted</span></div><div><strong>03</strong><span>Made for everyday</span></div></div><a class="button button-dark" href="#buy">Find your favourites <span>↗</span></a></div></div></section>
+
+    <section class="buy-section section-shell" id="buy"><div class="section-heading centered reveal"><p class="eyebrow">YOUR WAY TO BUYMITRA</p><h2>Good food is<br /><em>never far away.</em></h2><p>Find the range online or ask for BUYMITRA at a market near you.</p></div><div class="buy-grid reveal"><a href="https://www.amazon.in" target="_blank" rel="noreferrer"><span>AMAZON</span><small>Shop online ↗</small></a><a href="https://www.flipkart.com" target="_blank" rel="noreferrer"><span>FLIPKART</span><small>Shop online ↗</small></a><a href="https://www.meesho.com" target="_blank" rel="noreferrer"><span>MEESHO</span><small>Shop online ↗</small></a><a href="mailto:hello@buymitra.in"><span>OFFICIAL WEBSITE</span><small>Talk to us ↗</small></a><div><span>OFFLINE MARKETS</span><small>Find us near you ↗</small></div></div></section>
+
+    <section class="newsletter section-shell"><div><p class="eyebrow">A LITTLE GOODNESS, IN YOUR INBOX</p><h2>Stay in the loop.</h2></div><form id="newsletterForm"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required /><button class="button button-primary" type="submit">Sign me up <span>→</span></button><p id="formMessage" class="form-message" aria-live="polite"></p></form></section>
+  </main>
+
+  <footer class="footer"><div class="footer-brand"><div class="brand-copy"><strong>BUYMITRA</strong><small>SHOP SMART, LIVE BETTER</small></div><p>Quality, matlab BUYMITRA.</p></div><div class="footer-links"><a href="#range">Our range</a><a href="#story">Our story</a><a href="#buy">Where to buy</a><a href="mailto:hello@buymitra.in">Contact</a></div><small>© 2026 BUYMITRA. Made with care in India.</small></footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-head"><h2>Your bag</h2><button id="closeCart" aria-label="Close shopping bag">×</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your bag is waiting for something good.</p></div><div class="cart-footer"><div><span>Total</span><strong id="cartTotal">₹0</strong></div><button class="button button-primary" id="checkoutButton">Checkout <span>→</span></button></div></aside><div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <script src="app.js"></script>
+</body>
+</html>
